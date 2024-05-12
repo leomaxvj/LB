@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>gift</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./gift.css">
+  <link rel="stylesheet" href="../menu/stylemenu.css">
+  <script src="../menu/scriptmenu.js"></script>
+  <script src="../script.js"></script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<script src="https://use.fontawesome.com/f5ea91e308.js"></script>
+<div id="app" class="gift"></div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js'></script><script  src="./gift.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+<div class="tab-nav-container">
+  <div class="tab purple" onclick="navigate('../index.html')">
+      <i class="fas fa-egg">Invest</i>
+  </div>
+  <div class="tab pink" onclick="navigate('../sharepage/share.html')">
+      <i class="fas  fa-share">Share</i>
+  </div>
+  <div class="tab active yellow" onclick="navigate('#')">
+      <i class="fas fa-search">Gift</i>
+  </div>
+  <div class="tab teal" onclick="navigate('../profilepage')">
+      <i class="far fa-user">Profile</i>
+  </div>
+</div>
+<script>
+  function navigate(url) {
+      if (url) {
+          window.location.href = url;
+      }
+  }
+</script>
+
+</body>
+</html>

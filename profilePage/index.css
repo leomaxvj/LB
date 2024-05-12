@@ -1,0 +1,9 @@
+.profile__section {
+  height: 90vh;
+  overflow: scroll;
+}
+.profile__section__header {
+  height: 25vh;
+  background-color: blue;
+  width: 100%;
+}

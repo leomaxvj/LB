@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Profile</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../menu/stylemenu.css">
+    <script src="../menu/scriptmenu.js"></script>
+    <script src="../script.js"></script>
+    <link rel="stylesheet" href="./index.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="profile__section">
+        <div class="profile__section__header">
+            hello
+        </div>
+    </div>
+    <div class="tab-nav-container">
+        <div class="tab purple" onclick="navigate('../index.html')">
+            <i class="fas fa-egg">Invest</i>
+        </div>
+        <div class="tab pink" onclick="navigate('../sharepage/share.html')">
+            <i class="fas  fa-share">Share</i>
+        </div>
+        <div class="tab  yellow" onclick="navigate('#')">
+            <i class="fas fa-search">Gift</i>
+        </div>
+        <div class="tab active teal" onclick="navigate('../profilepage')">
+            <i class="far fa-user">Profile</i>
+        </div>
+    </div>
+    <script>
+        function navigate(url) {
+            if (url) {
+                window.location.href = url;
+            }
+        }
+    </script>
+
+    <script src="" async defer></script>
+</body>
+
+</html>
